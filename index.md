@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![UCIPT_Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUniversity_of_California%2C_Institute_for_Prediction_Technology&psig=AOvVaw0kdOKu7guamAHxGhQWD2xh&ust=1642557063564000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDgzImYuvUCFQAAAAAdAAAAABAD)
+![UCIPT_Logo](./img/UCIPT_Logo.jpg)
 
 # Healthcare Point of Interest (POI) Conflation and Spatial Attribute Enrichment Framework
 
