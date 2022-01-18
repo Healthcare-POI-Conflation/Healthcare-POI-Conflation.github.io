@@ -2,6 +2,8 @@
 layout: default
 ---
 
+![UCIPT_Logo](./img/UCIPT_Logo.jpg){ width=25% }
+
 # Healthcare Point of Interest (POI) Conflation and Spatial Attribute Enrichment Framework
 
 # Abstract
@@ -11,3 +13,4 @@ Healthcare Point of Interest (POI) data is an important source of semantic infor
 
 # Our approach
 
+![pipeline](./img/pipeline.png)
