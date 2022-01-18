@@ -2,17 +2,10 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Abstract
 
-[Link to another page](./another-page.html).
+Healthcare Point of Interest (POI) data is an important source of semantic information about healthcare places, however, the task of retrieving accurate healthcare POI information is yet complicated. With the abundance of open-source projects and commercial geographical databases, POI conflation is a useful method to enrich spatial data attributes and coverage through merging POI records from different sources. This study is proposing a novel comprehensive healthcare POI conflation and spatial enrichment framework that engage in multi-step process; POI data collection from Location-Based Services (LBS), geographic and spatial attributes collection, calculating similarity across dataset and POI matching, spatial attributes enrichment, manual validation, Quality Control (QC), and finally a deployable enriched database. The viability of our proposed framework is tested on a case study of drug and substance abuse places in California. 
 
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 ## Header 2
 
