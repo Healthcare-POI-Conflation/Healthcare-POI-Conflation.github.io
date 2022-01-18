@@ -13,12 +13,34 @@ Healthcare Point of Interest (POI) data is an important source of semantic infor
 
 # Our approach
 
-![pipeline](./img/pipeline.png)
+### Process Overview
 
-### LBS POI Collection 
+![overview](./img/process_overview.jpg)
+
+#### LBS POI Collection 
 
 The first step is collecting POI data from different sources to be conflated. In this step, we are proposing the use of LBS, because it allows searching for POIs based on a text query. 
 
-### Conflation Process
+#### Conflation Process
 
 POIs from different sources sometimes follow different encoding systems, thus a thoughtful conflation policy is necessary to combine POIs databases. 
+
+#### Spatial Attributes Enrichment 
+
+
+
+#### Human in the Loop (HITL)
+
+
+#### Quality Control
+
+
+#### Final Database Design 
+
+
+### Pipeline 
+
+We then converted the process into an automated pipeline using Kedro.
+
+![pipeline](./img/pipeline.png)
+
