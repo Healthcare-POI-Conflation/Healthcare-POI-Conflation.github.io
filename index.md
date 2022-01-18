@@ -15,7 +15,9 @@ Healthcare Point of Interest (POI) data is an important source of semantic infor
 
 ### Process Overview
 
-![overview](./img/process_overview.jpg){Overview of the POI Conflation Process}
+![overview](./img/process_overview.jpg)
+
+Overview of the POI Conflation Process
 
 #### LBS POI Collection 
 
@@ -25,7 +27,9 @@ The first step is collecting POI data from different sources to be conflated. In
 
 POIs from different sources sometimes follow different encoding systems, thus a thoughtful conflation policy is necessary to combine POIs databases. We are proposing a two-step conflation process. First, calculating similarity metrics for POIs' name, street address, zip code and distance from each other. The second step is performing POI matching based on similarity metrics thresholds using the following algorithm. 
 
-![POI_matching_alg](./img/POI_matching.png){Pseudocode for POI Matching Algorithm}
+![POI_matching_alg](./img/POI_matching.png)
+
+Pseudocode for POI Matching Algorithm
 
 #### Spatial Attributes Enrichment 
 
@@ -46,11 +50,15 @@ In order to evaluate the proposed method with respect to commercial datasets, we
 
 Final database is an important component of the conflation process. After the POIs matching is done and data is labeled for relevance and accuracy, the database design is what makes the produced dataset usable. Bellow is the proposed database design 
 
-![db_design](./img/database_design.png){Proposed POIs Database Schema}
+![db_design](./img/database_design.png)
+
+Proposed POIs Database Schema
 
 ### Pipeline 
 
 We then converted the process into an automated pipeline using Kedro. Below is a picture representing the a visualization of the pipeline. Each node is a function written in python.
 
-![pipeline](./img/pipeline.png){Visualization of the POI Conflation pipeline generated using Kedro Viz}
+![pipeline](./img/pipeline.png)
+
+Visualization of the POI Conflation pipeline generated using Kedro Viz
 
