@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![UCIPT_Logo](./img/UCIPT_Logo.jpg)
+![UCIPT_Logo](./img/UCIPT_Logo.jpg =250x)
 
 # Healthcare Point of Interest (POI) Conflation and Spatial Attribute Enrichment Framework
 
