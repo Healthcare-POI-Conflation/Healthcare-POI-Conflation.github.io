@@ -14,3 +14,11 @@ Healthcare Point of Interest (POI) data is an important source of semantic infor
 # Our approach
 
 ![pipeline](./img/pipeline.png)
+
+### LBS POI Collection 
+
+The first step is collecting POI data from different sources to be conflated. In this step, we are proposing the use of LBS, because it allows searching for POIs based on a text query. 
+
+### Conflation Process
+
+POIs from different sources sometimes follow different encoding systems, thus a thoughtful conflation policy is necessary to combine POIs databases. 
